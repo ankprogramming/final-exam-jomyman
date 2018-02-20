@@ -23,19 +23,19 @@ do{
 if (cmd == 1){
 cout << endl;
 cout << "1." << Number1 << " + " << Number2;
-cout << " = " << Number1 + Number2 << endl;
+cout << " Result = " << Number1 + Number2 << endl;
 }else if (cmd == 2){
 cout << endl;
 cout << "2." << Number1 << " - " << Number2;
-cout << " = " << Number1 - Number2 << endl;
+cout << " Result = " << Number1 - Number2 << endl;
 }else if (cmd == 3){
 cout << endl;
 cout << "3." << Number1 << " * " << Number2;
-cout << " = " << Number1 * Number2 << endl;
+cout << " Result = " << Number1 * Number2 << endl;
 }else if (cmd == 4){
 cout << endl;
 cout << "4." << Number1 << " / " << Number2;
-cout << " = " << Number1 / Number2 << endl;
+cout << " Result = " << Number1 / Number2 << endl;
 }else {break;} }
 while(e!='q');
 cout<<"\n###END Pocess###\t"<<endl;
